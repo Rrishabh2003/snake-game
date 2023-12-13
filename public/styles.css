@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("snake-game.jpg");
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+canvas {
+  border: 2px solid white;
+  background-color: green;
+}
